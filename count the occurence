@@ -1,0 +1,6 @@
+#count the occurence of a within the list
+l=['fousia','salma','jasmin']
+total=0
+for i in l:
+    total=total + i.count('a')
+print(total)
