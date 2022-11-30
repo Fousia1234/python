@@ -1,0 +1,4 @@
+#list ordinal value of each element
+word=input("enter any word:")
+list2=[ord(x) for x in word]
+print("the ordinal format of given word is:",list2)
