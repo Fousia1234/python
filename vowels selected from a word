@@ -1,0 +1,6 @@
+#form a list of vowels selected from a given word
+word='Assignment'
+vowel=('a','e','i','o','u','A','E','I','O','U')
+for i in word:
+    if(i in vowel):
+        print(i,"\n")
