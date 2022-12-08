@@ -1,0 +1,10 @@
+d1={9:'nine',5:'five',10:'ten',2:'two'}
+print("the dictionary is",d1)
+l1=list(d1.items())
+l1.sort()
+d1=dict(l1)
+print("dictionary in ascending oredr :",d1)
+l2=list(d1.items())
+l2.sort(reverse=True)
+d2=dict(l2)
+print("dictionary in desecending oredr :",d2)
